@@ -1,7 +1,9 @@
 # Guerrier · nómina y alias
 
-Prototipo web para demostrar el flujo de alta de trabajadores por DNI y recopilación de alias para pagos de eventos.
+Prototipo web para registrar trabajadores de un evento y recopilar alias de pago.
 
-La demo está en `dist/index.html`. Usa datos ficticios y almacenamiento del navegador; aún no sincroniza teléfonos ni debe usarse con datos reales.
+La demo está en `dist/index.html`. Usa ejemplos ficticios y guarda los datos en el navegador; no sincroniza la nómina entre teléfonos.
 
-Vercel publica el contenido de `dist` sin proceso de compilación, según `vercel.json`.
+## Publicación
+
+Este repositorio está conectado a Vercel. Cada cambio que llega a `main` genera una nueva publicación automáticamente. El sitio estático se sirve desde `dist` según `vercel.json`.
